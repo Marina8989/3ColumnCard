@@ -55,3 +55,22 @@ body{
     background: white;
     margin: 1rem 0;
 }
+@media only screen and (min-width: 600px) {
+    .container{
+        display: flex;
+        justify-content: center;
+        min-height: 82vh;
+    }
+    .item{
+        padding: 7rem 4rem; 
+    }
+    .item img{
+        padding-bottom: 1rem;
+    }
+    .item h2{
+        padding-bottom: 2rem;
+    }
+    .item p{
+        padding-bottom: 2rem;
+    }
+}
