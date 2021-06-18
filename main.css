@@ -1,0 +1,21 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body{
+    background: white;
+}
+.container{
+    border: 1px solid pink;
+    margin: 2rem 1rem;
+    border-radius: 5px;
+}
+.item{
+    border: 1px solid green;
+    padding: 3rem;
+}
+.item img{
+    margin-bottom: 1.7rem;
+}
