@@ -6,16 +6,52 @@
 
 body{
     background: white;
+    color: white;
 }
 .container{
-    border: 1px solid pink;
-    margin: 2rem 1rem;
+    margin: 4rem 2.5rem;
     border-radius: 5px;
 }
 .item{
-    border: 1px solid green;
     padding: 3rem;
 }
+.item h2{
+    text-transform: uppercase;
+    font-weight: 400;
+    font-size: 21px;
+}
 .item img{
-    margin-bottom: 1.7rem;
+    margin-bottom: 2.7rem;
+}
+.item h2, p{
+    margin-bottom: 2rem;
+}
+.item p{
+  font-size: 13px;
+  line-height: 18px;;
+}
+.item-box-1{
+    background: hsl(31, 77%, 52%);
+}
+.item-box-1 .btn{
+    color: hsl(31, 77%, 52%);
+}
+.item-box-2{
+    background: hsl(184, 100%, 22%);
+}
+.item-box-2 .btn{
+   color: hsl(184, 100%, 22%);
+}
+.item-box-3{
+    background: hsl(179, 100%, 13%);
+}
+.item-box-3 .btn{
+    color: hsl(179, 100%, 13%);
+}
+.btn{
+    border: none;
+    padding: .7rem 1.5rem;
+    border-radius: 20px;
+    background: white;
+    margin: 1rem 0;
 }
